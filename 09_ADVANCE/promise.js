@@ -8,7 +8,7 @@ const promiseOne = new Promise(function(resolve,reject){
 
 })
 
-promiseOne.then(function(){           // connection with resolve
+promiseOne.then(function(){             // connection with resolve
     console.log('promise is consumed');
 })             
 
@@ -37,7 +37,7 @@ const promise4 = new Promise(function(resolve,reject){
         if(!error){
             resolve({username:"abc",password:"123"})
         }else{
-            reject('ERROR something went wrong')
+            reject('ERROR: something went wrong')
         }
     },1000)
 })
