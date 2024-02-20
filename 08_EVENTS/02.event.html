@@ -13,16 +13,16 @@
     const saySivram = function(){
         console.log("Sivram")
     }
-    setTimeout(saySivram,4000)
+    const clear1=setTimeout(saySivram,4000)
 
     const change = function(){
         document.querySelector('h1').innerHTML= "Best JS Series"
     }
     const clear=setTimeout(change,4000)
 
-    document.querySelector('button').
-    addEventListener('click',function(){
+    document.querySelector('button').addEventListener('click',function(){
         clearTimeout(clear)
+        // clearTimeout(clear1)
         console.log("Stopped");
     })
 
