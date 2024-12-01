@@ -1,7 +1,7 @@
-const accountId = 210305105516
+const accountId = 210305105516 //The value cannopt be override
 let accountEmail = "Programmersiv21@gmail.com"
 var accountPassword = "12345"
-accountCity = "Vadodara"
+// accountCity = "Vadodara"
 let accountState
 
 // accountId = 2    Not allowed

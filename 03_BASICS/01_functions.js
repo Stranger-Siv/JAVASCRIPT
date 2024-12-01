@@ -7,15 +7,16 @@ function sayMyName(){
     console.log("M");
 }
 
-// sayMyName()
+sayMyName()
+
 function sumOfTwo(num1,num2){
-    // console.log(num1+num2);
+    console.log(num1+num2);
     let result = num1+num2
     return result
 
 }
-// sumOfTwo(3,4)
-// sumOfTwo(3,"4")
+sumOfTwo(3,4)
+sumOfTwo(3,"4")
 const result = sumOfTwo(3,5)
 // console.log("Result:",result);
 
